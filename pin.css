@@ -1,0 +1,74 @@
+body{
+    background: #1B1861;
+    text-decoration-color: #002D38;
+}
+.pincss
+{
+    background-color: #BF9FBA    ;
+    border:2px SOLID black;
+    border-radius: 30px;
+    display: grid;
+    place-items:  center;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-shadow: 10px 10px 15px rgba(2,2,2,4);
+
+}
+#a{
+ background-color: #262626;
+ box-shadow: 10px 10px 10px rgba(2,2,2,4);
+ border-radius: 30px;
+}
+table, th, td {
+    border:1px solid black;
+    background-color: whitesmoke;
+    
+}
+
+table, th{
+    background-color: pink;
+}
+#addi{
+    border-radius: 75px;
+    height: 55px;
+    width: 100px;
+    background-color: #D95F5F;
+}
+#addi img{
+ width: 40px;
+}
+h3{
+    font-family: "Papyrus";
+}
+
+.content h2{
+	position: relative;
+	font-size: 5em;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	letter-spacing: 8px;
+	color: #0e3742;
+	width: 1600px;
+	background-color: #07252d;
+	text-align: center;
+	justify-content: center;
+	-webkit-box-reflect:below 1px linear-gradient(transparent,#0008);
+	line-height: 0.80em;
+	outline: none;
+	animation: animate 5s linear infinite;
+}
+@keyframes animate{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+	{
+	color: #0e3742;
+	text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+	{
+		color: #fff;
+		text-shadow: 0 0 10px #03bcf4,
+		0 0 20px #03bcf4,
+		0 0 40px #03bcf4,
+		0 0 80px #03bcf4,
+		0 0 100px #03bcf4;
+	}
+}

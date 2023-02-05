@@ -1,0 +1,52 @@
+#if($transactionType == "transaction_otp")
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+td {
+    font-family: Arial;
+}
+</style>
+</head>
+
+<body>
+<table align="center" border="0" >
+  <tbody>
+    <tr>
+      <td <table align="center" border="0">
+        <tbody>
+          <tr>
+            <td  align="center"><img src="https://uploads-ssl.webflow.com/61fadb883ec7082016995533/63a21f83b77f344aee2e0fec_Growpay.png" height="75" /></td>
+
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+    <tr>
+      <td ><p>&#160;</p>
+      <p style="color: black;padding-bottom: 10px; font-family: Calibri">Dear  Cardholder,</p>
+      <p style="color:black;font-family: Calibri">${customerOtp} is your one-time pin ("OTP") for a transaction at ${merchant_name} for${amount} using card ending: ${card_ending}. This pin is valid for 5 minutes. </p>
+      <p style="color:black;font-family: Calibri">Do not share your credentials or OTP with anyone via call, email or SMS.  </p>
+      <p style="color:black;font-family: Calibri">If you did not attempt this transaction please contact GrowPay support at <a href = "mailto: "support@growpay.io">support@growpay.io</a></p>
+      <p style="color:black;font-family: Calibri">Thanks,</p>
+      <p style="color:black;font-family: Calibri">GrowPay Support Team  &#160;</p>
+<p>&#160;</p></td>
+    </tr>
+  <div style="align-items: center;font-family: Calibri;">
+    <tr>
+      <td bgcolor="white"><table align="center" border="0">
+        <tbody>
+          <tr>
+            <td  align="center" ><span style="font-size:13px;font-family: Calibri">Powered by</span><br><img src="https://yap-assets.yappay.in/m2plogo/m2plogo.svg" height="26" /><br><span style="font-size:13px;font-family: Calibri">copyright &#169;     all rights reserved</span></span></td>
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+  </div>
+  </tbody>
+</table>
+</body>
+</html>
+#end
